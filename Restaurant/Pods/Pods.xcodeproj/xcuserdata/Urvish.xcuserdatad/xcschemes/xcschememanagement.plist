@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OMGHTTPURLRQ.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Restaurant.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TDOAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YelpAPI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>02CA534824ACC60368C463B1D9FF67CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60DD9D804D6025B1AD1CD03327B1AB3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7506E9FDE0870E92CBB7482E5685ECDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA119F35D4F6B91994A8BEA51405A4C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1FBFA1AAD89FD24B1F04F799DF6CA1B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

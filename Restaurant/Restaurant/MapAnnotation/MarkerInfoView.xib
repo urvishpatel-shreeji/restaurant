@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="deK-wm-fUY" customClass="MarkerInfoView" customModule="Restaurant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="Ggu-GN-94s" customClass="RSLabel" customModule="Restaurant" customModuleProvider="target">
+                    <rect key="frame" x="5" y="5" width="95" height="19"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New York" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="Ngb-an-M9K" customClass="RSLabel" customModule="Restaurant" customModuleProvider="target">
+                    <rect key="frame" x="5" y="26" width="130" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="zcQ-CK-UcP" customClass="RSLabel" customModule="Restaurant" customModuleProvider="target">
+                    <rect key="frame" x="105" y="5" width="28" height="19"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ngb-an-M9K" firstAttribute="leading" secondItem="deK-wm-fUY" secondAttribute="leading" constant="5" id="585-5u-BBs"/>
+                <constraint firstItem="Ngb-an-M9K" firstAttribute="top" secondItem="zcQ-CK-UcP" secondAttribute="bottom" constant="2" id="7pk-xr-NPR"/>
+                <constraint firstItem="zcQ-CK-UcP" firstAttribute="leading" secondItem="Ggu-GN-94s" secondAttribute="trailing" constant="5" id="9W4-aJ-BTh"/>
+                <constraint firstItem="zcQ-CK-UcP" firstAttribute="width" secondItem="deK-wm-fUY" secondAttribute="width" multiplier="0.2" id="QLq-47-ngF"/>
+                <constraint firstItem="Ggu-GN-94s" firstAttribute="leading" secondItem="deK-wm-fUY" secondAttribute="leading" constant="5" id="SQ8-1k-DTS"/>
+                <constraint firstItem="zcQ-CK-UcP" firstAttribute="centerY" secondItem="Ggu-GN-94s" secondAttribute="centerY" id="VHT-cH-ldb"/>
+                <constraint firstItem="Ggu-GN-94s" firstAttribute="top" secondItem="deK-wm-fUY" secondAttribute="top" constant="5" id="coD-bL-4Rn"/>
+                <constraint firstItem="zcQ-CK-UcP" firstAttribute="top" secondItem="deK-wm-fUY" secondAttribute="top" constant="5" id="g17-iM-aCL"/>
+                <constraint firstAttribute="trailing" secondItem="Ngb-an-M9K" secondAttribute="trailing" constant="5" id="i79-jR-Nw7"/>
+                <constraint firstItem="Ggu-GN-94s" firstAttribute="width" secondItem="deK-wm-fUY" secondAttribute="width" multiplier="0.68" id="neO-JR-tqL"/>
+                <constraint firstAttribute="bottom" secondItem="Ngb-an-M9K" secondAttribute="bottom" constant="5" id="qql-dt-LH7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblAddress" destination="Ngb-an-M9K" id="ysd-2L-vx3"/>
+                <outlet property="lblName" destination="Ggu-GN-94s" id="k9m-23-2AU"/>
+                <outlet property="lblRating" destination="zcQ-CK-UcP" id="C7I-If-BUb"/>
+            </connections>
+            <point key="canvasLocation" x="246" y="131.5"/>
+        </view>
+    </objects>
+</document>
